@@ -1,6 +1,7 @@
 import Link from 'next/link'
-export default () => (
 console.log(process.env)
+
+export default () => (
 
   <div>
     <div>About us</div>
