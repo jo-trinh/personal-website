@@ -4,7 +4,7 @@ console.log(process.env)
 export default () => (
 
   <div>
-    <div>About us</div>
+    <div>About me</div>
     <div>
       Back to{' '}
       <Link href="/">
