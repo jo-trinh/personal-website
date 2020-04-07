@@ -8,7 +8,7 @@ export default () => (
     <div>
       Back to{' '}
       <Link href="/">
-        <a>Home Page</a>
+        <a>Jo's Page</a>
       </Link>
     </div>
   </div>
