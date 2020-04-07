@@ -5,7 +5,7 @@ export default () => (
     <div>
       Back to{' '}
       <Link href="/" as={process.env.BACKEND_URL + '/'}>
-        <a>Home</a>
+        <a>Home Page</a>
       </Link>
     </div>
   </div>
