@@ -4,11 +4,11 @@ console.log(process.env)
 export default () => (
 
   <div>
-    <div>About me</div>
+    <div>About Jo</div>
     <div>
       Back to{' '}
       <Link href="/">
-        <a>Jo's Page</a>
+        <a>Home Page</a>
       </Link>
     </div>
   </div>
