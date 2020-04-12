@@ -483,10 +483,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       columnNumber: 7
     }
   }, __jsx("div", {
-    style: {
-      display: 'flex',
-      flexDirection: 'row-reverse'
-    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -498,14 +494,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 9,
       columnNumber: 7
     }
   }, __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 10,
       columnNumber: 9
     }
   }, "Test 2"))));
