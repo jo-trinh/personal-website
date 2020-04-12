@@ -4,7 +4,14 @@
 
 const debug = process.env.NODE_ENV !== 'production'
 
-;(module.exports = {
+module.exports = {
   assetPrefix: !debug ? '/personal-website/' : '',
-}),
-  require('@zeit/next-css')
+}
+
+const withCSS = require('@zeit/next-css')
+
+module.exports = withCSS({
+  cssLoaderOptions: {
+    url: false,
+  },
+})
