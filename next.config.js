@@ -8,4 +8,7 @@ const withCSS = require('@zeit/next-css')
 withCSS({
   assetPrefix: !debug ? '/personal-website/' : '',
   cssModules: true,
+  webpack: (config) => {
+    return config
+  },
 })
