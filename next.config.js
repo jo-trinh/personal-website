@@ -4,11 +4,7 @@
 
 const debug = process.env.NODE_ENV !== 'production'
 
-module.exports = {
+withCSS({
   assetPrefix: !debug ? '/personal-website/' : '',
-}
-
-const withCSS = require('@zeit/next-css')
-module.exports = withCSS({
   cssModules: true,
 })
