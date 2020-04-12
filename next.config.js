@@ -6,11 +6,9 @@ const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
   assetPrefix: !debug ? '/personal-website/' : '',
-  webpack: (config, { production }) => {
-    config.module.rules.push({
-      test: /\.scss$/,
-      loader: ['style-loader', 'css-loader', 'sass-loader'],
-    })
-    return config
-  },
 }
+
+const withImages = require('next-images')
+const withCSS = require('@zeit/next-css')
+
+module.exports = withImages(withCSS())
