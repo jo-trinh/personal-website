@@ -1,0 +1,28 @@
+html {
+  height: 100vh;
+}
+body {
+  margin: 0px;
+}
+
+._3-7Bil0J52ajbIBAIjyJaK {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+._3zgEyWxazWR6MR5UKkRZu7 {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
+
+._3zgEyWxazWR6MR5UKkRZu7:nth-of-type(1) {
+  background-color: rebeccapurple;
+  flex-basis: 250px;
+}
+._3zgEyWxazWR6MR5UKkRZu7:nth-of-type(2) {
+  background-color: palegreen;
+  flex-basis: 400px;
+}
+
