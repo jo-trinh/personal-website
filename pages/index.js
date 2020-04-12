@@ -1,4 +1,4 @@
-import styles from '../stylesheets/index.css'
+import styles from '../stylesheets/index.module.css'
 
 export default () => (
   <>
