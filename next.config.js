@@ -6,4 +6,11 @@ const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
   assetPrefix: !debug ? '/personal-website/' : '',
+  webpack: (config, { production }) => {
+    config.module.rules.push({
+      test: /\.scss$/,
+      loader: ['style-loader', 'css-loader', 'sass-loader'],
+    })
+    return config
+  },
 }
