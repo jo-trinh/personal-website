@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grommet, Header } from 'grommet'
+import { Grommet } from 'grommet'
 
 const theme = {
   global: {
