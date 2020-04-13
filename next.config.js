@@ -12,7 +12,7 @@ module.exports = {
     }
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? '//' : '',
+  assetPrefix: !debug ? '/jotrinh.dev/' : '',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');
