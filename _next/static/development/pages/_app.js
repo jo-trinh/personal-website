@@ -1141,7 +1141,7 @@ var createChangeEmitter = exports.createChangeEmitter = function createChangeEmi
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "html {\n  height: 100vh;\n}\nbody {\n  margin: 0px;\n  background-color: #fff;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/global.css"],"names":[],"mappings":"AAAA;EACE,aAAa;AACf;AACA;EACE,WAAW;EACX,sBAAsB;AACxB","file":"global.css","sourcesContent":["html {\n  height: 100vh;\n}\nbody {\n  margin: 0px;\n  background-color: #fff;\n}\n"]}]);
+exports.push([module.i, "html {\n  height: 100vh;\n}\nbody {\n  margin: 0px;\n  background-color: #e8e8e8;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/global.css"],"names":[],"mappings":"AAAA;EACE,aAAa;AACf;AACA;EACE,WAAW;EACX,yBAAyB;AAC3B","file":"global.css","sourcesContent":["html {\n  height: 100vh;\n}\nbody {\n  margin: 0px;\n  background-color: #e8e8e8;\n}\n"]}]);
 
 
 /***/ }),
