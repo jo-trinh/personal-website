@@ -1,29 +1,44 @@
 import styles from './index.module.css'
-import { Tabs, Tab, Box } from 'grommet'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faLaptopHouse,
+  faEnvelope,
+  faMobile,
+  faMedal,
+} from '@fortawesome/free-solid-svg-icons'
 
 export default () => (
   <>
     <div className={styles.flexContainer}>
-      <div className={styles.flexItem}>
-        <div className={styles.bookmark}>
-          <img src='https://media-exp1.licdn.com/dms/image/C5603AQEaSmf2PjwGMg/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=MIKqfeXvlv_g6Rq6sPrfwqNwNRvjdBbwKFTZKWUuSfA' />
-          Joseph Trinh
+      <div className={`${styles.flexItem} border border-primary`}>
+        <div style={{ height: '90%' }}>
+          <div id={styles.profileHeader}>
+            <img
+              height={80}
+              width={80}
+              style={{ borderRadius: '50%' }}
+              src='https://media-exp1.licdn.com/dms/image/C5603AQEaSmf2PjwGMg/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=MIKqfeXvlv_g6Rq6sPrfwqNwNRvjdBbwKFTZKWUuSfA'
+            />
+            Joseph Trinh
+          </div>
+          <div className={styles.profileDescriptions}>
+            <span>
+              <FontAwesomeIcon icon={faMedal} /> Senior Software Engineer
+            </span>
+            <span>
+              <FontAwesomeIcon icon={faEnvelope} /> jotrinh1@outlook.com
+            </span>
+            <span>
+              <FontAwesomeIcon icon={faMobile} /> (470) 869-3972
+            </span>
+            <span>
+              <FontAwesomeIcon icon={faLaptopHouse} /> Full Time at{' '}
+              <span style={{ color: '#EE7125' }}>The Home Depot</span>
+            </span>
+          </div>
         </div>
       </div>
-      <div className={`${styles.flexItem}`}>
-        <Tabs style={{ height: '100%' }}>
-          <Tab title='Summary'>
-            <div className={styles.paperShadow} pad='medium'>
-              <div style={{ textAlign: 'center' }}>Work Experience</div>
-            </div>
-          </Tab>
-          <Tab title='Interest' disabled={true}>
-            <Box pad='medium'>Two</Box>
-          </Tab>
-        </Tabs>
-      </div>
+      <div className={`${styles.flexItem} border border-primary`}></div>
     </div>
   </>
 )
