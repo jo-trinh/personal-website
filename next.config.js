@@ -1,21 +1,10 @@
-const prod = process.env.NODE_ENV === 'production'
-
 module.exports = {
-  exportPathMap: () => ({
-    '/': { page: '/' },
-  }),
-
-  assetPrefix: prod ? 'https://jotrinh.dev/' : '',
-
-  webpack: (config, { dev }) => {
-    config.module.rules = config.module.rules.map((rule) => {
-      if (rule.loader === 'babel-loader') {
-        rule.options.cacheDirectory = false
-      }
-
-      return rule
-    })
-
-    return config
+  exportTrailingSlash: true,
+  exportPathMap: function () {
+    return {
+      '/': { page: '/' },
+    }
   },
+  assetPrefix:
+    process.env.NODE_ENV === 'production' ? '/personal-website/' : '',
 }
