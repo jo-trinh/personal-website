@@ -26,7 +26,7 @@ export default () => (
               <FontAwesomeIcon icon={faMedal} /> Senior Software Engineer
             </span>
             <span>
-              <FontAwesomeIcon icon={faEnvelope} /> jotrinh1@outlook.com
+              <FontAwesomeIcon icon={faEnvelope} /> jotrinh@outlook.com
             </span>
             <span>
               <FontAwesomeIcon icon={faMobile} /> (470) 869-3972
