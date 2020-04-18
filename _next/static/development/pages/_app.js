@@ -1,5 +1,53 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
 
+/***/ "./components/atom/Meta/Meta.js":
+/*!**************************************!*\
+  !*** ./components/atom/Meta/Meta.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _this = undefined,
+    _jsxFileName = "/Users/Jo/workspaces/projects/personal-website/components/atom/Meta/Meta.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var Head = function Head(props) {
+  return __jsx("head", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 5
+    }
+  }, __jsx("title", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 7
+    }
+  }, "Jo Trinh's Resume Website"), __jsx("meta", {
+    name: "description",
+    content: 'Joseph Trinh software engineer resume',
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Head);
+
+/***/ }),
+
 /***/ "./components/templates/Layout/Layout.js":
 /*!***********************************************!*\
   !*** ./components/templates/Layout/Layout.js ***!
@@ -3520,10 +3568,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_global_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var papercss_dist_paper_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! papercss/dist/paper.css */ "./node_modules/papercss/dist/paper.css");
 /* harmony import */ var papercss_dist_paper_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(papercss_dist_paper_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_atom_Meta_Meta__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/atom/Meta/Meta */ "./components/atom/Meta/Meta.js");
 
 var _jsxFileName = "/Users/Jo/workspaces/projects/personal-website/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
  // This default export is required in a new `pages/_app.js` file.
@@ -3531,151 +3581,25 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 function App(_ref) {
   var Component = _ref.Component,
       pageProps = _ref.pageProps;
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("head", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 7
-    }
-  }, __jsx("title", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_atom_Meta_Meta__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
-      columnNumber: 9
+      columnNumber: 7
     }
-  }), __jsx("meta", {
-    name: "description",
-    content: "",
+  }), __jsx(_components_templates_Layout_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    property: "og:type",
-    content: "website",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    name: "og:title",
-    property: "og:title",
-    content: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    name: "og:description",
-    property: "og:description",
-    content: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    property: "og:site_name",
-    content: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    property: "og:url",
-    content: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    name: "twitter:card",
-    content: "summary",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    name: "twitter:title",
-    content: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    name: "twitter:description",
-    content: 'Joseph Trinh software engineer resume',
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    name: "twitter:site",
-    content: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    name: "twitter:creator",
-    content: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 9
-    }
-  }), __jsx("link", {
-    rel: "stylesheet",
-    href: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 9
-    }
-  }), __jsx("script", {
-    type: "text/javascript",
-    src: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 9
-    }
-  })), __jsx(_components_templates_Layout_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
       columnNumber: 7
     }
   }, __jsx(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 12,
       columnNumber: 9
     }
   }))));

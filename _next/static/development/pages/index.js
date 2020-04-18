@@ -12966,7 +12966,7 @@ var convertCurry = convert.bind(null, react__WEBPACK_IMPORTED_MODULE_2___default
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".index_flexContainer__1nh_6 {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.index_flexItem__1tLiC {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.index_flexItem__1tLiC:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.index_flexItem__1tLiC:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.index_flexBody__1Zfp6 {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#index_profileHeader__3vLNs {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  border-left: none;\n  border-right: none;\n  border-top: none;\n}\n\n#index_profileDescriptions__3hNsF {\n  margin-left: 20px;\n  justify-content: space-around;\n  margin-top: 10px;\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n}\n\n#index_profileFooter__2e2o9 {\n  display: flex;\n  justify-content: space-evenly;\n  border-left: none;\n  border-right: none;\n  border-bottom: none;\n  padding: 15px;\n}\n\n.index_icon__2FeAx {\n  cursor: pointer;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/index.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,aAAa;EACb,eAAe;AACjB;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,WAAW;EACX,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,YAAY;AACd;AACA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,iBAAiB;EACjB,6BAA6B;EAC7B,gBAAgB;EAChB,eAAe;EACf,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,6BAA6B;EAC7B,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,eAAe;AACjB","file":"index.module.css","sourcesContent":[".flexContainer {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.flexItem {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.flexItem:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.flexItem:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.flexBody {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#profileHeader {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  border-left: none;\n  border-right: none;\n  border-top: none;\n}\n\n#profileDescriptions {\n  margin-left: 20px;\n  justify-content: space-around;\n  margin-top: 10px;\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n}\n\n#profileFooter {\n  display: flex;\n  justify-content: space-evenly;\n  border-left: none;\n  border-right: none;\n  border-bottom: none;\n  padding: 15px;\n}\n\n.icon {\n  cursor: pointer;\n}\n"]}]);
+exports.push([module.i, ".index_flexContainer__1nh_6 {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.index_flexItem__1tLiC {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.index_flexItem__1tLiC:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.index_flexItem__1tLiC:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.index_flexBody__1Zfp6 {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#index_profileHeader__3vLNs {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n#index_profileDescriptions__3hNsF {\n  padding-left: 20px;\n  justify-content: space-around;\n  padding-top: 20px;\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n  border-top: 2px solid #41403e;\n  border-bottom-left-radius: 225px 15px;\n  border-bottom-right-radius: 15px 255px;\n  border-top-left-radius: 55px 15px;\n}\n\n#index_profileFooter__2e2o9 {\n  display: flex;\n  justify-content: space-evenly;\n  border-left: none;\n  border-right: none;\n  border-bottom: none;\n  padding: 15px;\n}\n\n.index_icon__2FeAx {\n  cursor: pointer;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/index.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,aAAa;EACb,eAAe;AACjB;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,WAAW;EACX,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,YAAY;AACd;AACA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,6BAA6B;EAC7B,iBAAiB;EACjB,eAAe;EACf,aAAa;EACb,sBAAsB;EACtB,6BAA6B;EAC7B,qCAAqC;EACrC,sCAAsC;EACtC,iCAAiC;AACnC;;AAEA;EACE,aAAa;EACb,6BAA6B;EAC7B,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,eAAe;AACjB","file":"index.module.css","sourcesContent":[".flexContainer {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.flexItem {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.flexItem:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.flexItem:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.flexBody {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#profileHeader {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n#profileDescriptions {\n  padding-left: 20px;\n  justify-content: space-around;\n  padding-top: 20px;\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n  border-top: 2px solid #41403e;\n  border-bottom-left-radius: 225px 15px;\n  border-bottom-right-radius: 15px 255px;\n  border-top-left-radius: 55px 15px;\n}\n\n#profileFooter {\n  display: flex;\n  justify-content: space-evenly;\n  border-left: none;\n  border-right: none;\n  border-bottom: none;\n  padding: 15px;\n}\n\n.icon {\n  cursor: pointer;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"flexContainer": "index_flexContainer__1nh_6",
@@ -14346,7 +14346,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       columnNumber: 5
     }
   }, __jsx("div", {
-    className: "".concat(_index_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.flexItem, " border shadow border-primary border-4"),
+    className: "".concat(_index_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.flexItem, " border shadow border-primary"),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -14358,16 +14358,15 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 17,
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "border border-6",
     id: _index_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.profileHeader,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 18,
       columnNumber: 11
     }
   }, __jsx("img", {
@@ -14380,7 +14379,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 19,
       columnNumber: 13
     }
   }), __jsx("h3", {
@@ -14390,7 +14389,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 25,
       columnNumber: 13
     }
   }, "Joseph Trinh")), __jsx("div", {
@@ -14398,14 +14397,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 27,
       columnNumber: 11
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
       columnNumber: 13
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
@@ -14414,14 +14413,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 29,
       columnNumber: 15
     }
   }), " Senior Software Engineer"), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 32,
       columnNumber: 13
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
@@ -14430,14 +14429,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 33,
       columnNumber: 15
     }
   }), ' ', "jotrinh@outlook.com"), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 36,
       columnNumber: 13
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
@@ -14446,46 +14445,46 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 37,
       columnNumber: 15
     }
   }), " (470) 869-3972"), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 39,
       columnNumber: 13
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
     icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faStickyNote"],
     size: "1x",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 15
+    }
+  }), " Placeholder"), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42,
-      columnNumber: 15
-    }
-  }), " Placeholder"), __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
       columnNumber: 13
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
     icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faStickyNote"],
     size: "1x",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }), " Placeholder"), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45,
-      columnNumber: 15
-    }
-  }), " Placeholder"), __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
       columnNumber: 13
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
@@ -14494,14 +14493,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 46,
       columnNumber: 15
     }
   }), " Placeholder"), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 48,
       columnNumber: 13
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
@@ -14510,7 +14509,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 49,
       columnNumber: 15
     }
   }), " Full Time at", ' ', __jsx("u", {
@@ -14524,7 +14523,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 50,
       columnNumber: 15
     }
   }, "The Home Depot"))), __jsx("div", {
@@ -14533,14 +14532,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 61,
       columnNumber: 11
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 65,
       columnNumber: 13
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
@@ -14553,14 +14552,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 66,
       columnNumber: 15
     }
   }), ' '), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 77,
       columnNumber: 13
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
@@ -14573,7 +14572,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 78,
       columnNumber: 15
     }
   }), ' ')))), __jsx("div", {
@@ -14581,7 +14580,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 88,
       columnNumber: 7
     }
   })));
@@ -14650,7 +14649,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FJo%2Fworkspaces%2Fprojects%2Fpersonal-website%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************************/
@@ -14673,5 +14672,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
