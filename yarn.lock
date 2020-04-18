@@ -1014,6 +1014,13 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.28"
 
+"@fortawesome/free-brands-svg-icons@^5.13.0":
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.13.0.tgz#e79de73ba6555055204828dca9c0691e7ce5242b"
+  integrity sha512-/6xXiJFCMEQxqxXbL0FPJpwq5Cv6MRrjsbJEmH/t5vOvB4dILDpnY0f7zZSlA8+TG7jwlt12miF/yZpZkykucA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.28"
+
 "@fortawesome/free-solid-svg-icons@^5.13.0":
   version "5.13.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.13.0.tgz#44d9118668ad96b4fd5c9434a43efc5903525739"
@@ -1992,6 +1999,13 @@ clean-css@4.1.9:
   integrity sha1-Nc7ornaHpJuYA09w3gDE7dOCYwE=
   dependencies:
     source-map "0.5.x"
+
+clean-css@>=4.1.11:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.3.tgz#507b5de7d97b48ee53d84adb0160ff6216380f78"
+  integrity sha512-VcMWDN54ZN/DS+g58HYL5/n4Zrqe8vHJpGA8KdgUXFU4fuP/aHNw8eld9SyEIyabIMJX/0RaY/fplOo5hYLSFA==
+  dependencies:
+    source-map "~0.6.0"
 
 cliui@^3.2.0:
   version "3.2.0"
@@ -4116,6 +4130,14 @@ lodash.restparam@^3.0.0:
   resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
   integrity sha1-k2pOMJ7zMKdkXtQUWYbIWuWyCAU=
 
+lodash.template@>=4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.5.0.tgz#f976195cf3f347d0d5f52483569fe8031ccce8ab"
+  integrity sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==
+  dependencies:
+    lodash._reinterpolate "^3.0.0"
+    lodash.templatesettings "^4.0.0"
+
 lodash.template@^3.0.0:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-3.6.2.tgz#f8cdecc6169a255be9098ae8b0c53d378931d14f"
@@ -4138,6 +4160,13 @@ lodash.templatesettings@^3.0.0:
   dependencies:
     lodash._reinterpolate "^3.0.0"
     lodash.escape "^3.0.0"
+
+lodash.templatesettings@^4.0.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.templatesettings/-/lodash.templatesettings-4.2.0.tgz#e481310f049d3cf6d47e912ad09313b154f0fb33"
+  integrity sha512-stgLz+i3Aa9mZgnjr/O+v9ruKZsPsndy7qPZOchbqk2cnTU1ZaldKK+v7m54WoKIyxiuMZTKT2H81F8BeAc3ZQ==
+  dependencies:
+    lodash._reinterpolate "^3.0.0"
 
 lodash@^4.0.0, lodash@^4.14.2, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15, lodash@~4.17.12:
   version "4.17.15"
@@ -5949,7 +5978,7 @@ source-map@0.5.x, source-map@^0.5.0, source-map@^0.5.1, source-map@^0.5.6:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
 
-source-map@0.6.1, source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.1:
+source-map@0.6.1, source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
