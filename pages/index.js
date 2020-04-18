@@ -13,11 +13,9 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 export default () => (
   <>
     <div className={styles.flexContainer}>
-      <div
-        className={`${styles.flexItem} border shadow border-primary border-4`}
-      >
+      <div className={`${styles.flexItem} border shadow border-primary`}>
         <div className={styles.flexBody}>
-          <div className='border border-6' id={styles.profileHeader}>
+          <div id={styles.profileHeader}>
             <img
               height={80}
               width={80}
