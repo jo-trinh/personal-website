@@ -30,11 +30,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
 
 #profileDescriptions {
   margin-left: 20px;
   justify-content: space-around;
+  margin-top: 10px;
   height: inherit;
   display: flex;
   flex-direction: column;

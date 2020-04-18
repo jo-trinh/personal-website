@@ -13,9 +13,11 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 export default () => (
   <>
     <div className={styles.flexContainer}>
-      <div className={`${styles.flexItem} border border-primary`}>
+      <div
+        className={`${styles.flexItem} border shadow border-primary border-4`}
+      >
         <div className={styles.flexBody}>
-          <div id={styles.profileHeader}>
+          <div className='border border-6' id={styles.profileHeader}>
             <img
               height={80}
               width={80}
@@ -43,8 +45,19 @@ export default () => (
               <FontAwesomeIcon icon={faStickyNote} size='1x' /> Placeholder
             </span>
             <span>
+              <FontAwesomeIcon icon={faStickyNote} size='1x' /> Placeholder
+            </span>
+            <span>
               <FontAwesomeIcon icon={faLaptopHouse} size='1x' /> Full Time at{' '}
-              <span style={{ color: '#EE7125' }}>The Home Depot</span>
+              <u
+                onClick={() => window.open('https://www.homedepot.com/')}
+                style={{
+                  color: '#EE7125',
+                  cursor: 'pointer',
+                }}
+              >
+                The Home Depot
+              </u>
             </span>
           </div>
           <div
@@ -74,7 +87,9 @@ export default () => (
           </div>
         </div>
       </div>
-      <div className={`${styles.flexItem} border border-primary`}></div>
+      <div
+        className={`${styles.flexItem} border shadow border-primary border-2`}
+      ></div>
     </div>
   </>
 )
