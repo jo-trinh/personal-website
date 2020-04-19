@@ -1,0 +1,29 @@
+#profileHeader {
+  display: grid;
+  justify-content: center;
+  border-bottom: 2px solid #41403e;
+  border-bottom-left-radius: 225px 15px;
+  border-bottom-right-radius: 15px 255px;
+  border-top-left-radius: 55px 15px;
+}
+
+#profileDescriptions {
+  padding-left: 20px;
+  justify-content: space-evenly;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+#profileFooter {
+  display: flex;
+  justify-content: space-evenly;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 15px;
+}
+
+.icon {
+  padding: 0.3rem;
+}

@@ -20,6 +20,7 @@
     "papercss": "^1.6.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-tabs": "^3.1.0",
     "styled-components": "^5.1.0"
   },
   "license": "ISC",

@@ -1,0 +1,23 @@
+/* PaperCSS */
+ul li::before {
+  content: '' !important;
+}
+
+/* ReactTabs */
+.react-tabs__tab--disabled {
+  cursor: not-allowed !important;
+}
+
+.react-tabs {
+  height: 100%;
+}
+
+.react-tabs__tab-panel {
+  height: inherit;
+  border: 2px solid black;
+}
+
+.react-tabs__tab-list {
+  margin: 0 0 0px;
+  border-bottom: none;
+}
