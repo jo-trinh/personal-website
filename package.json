@@ -13,14 +13,14 @@
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
+    "clean-css": ">=4.1.11",
     "git-directory-deploy": "^1.5.1",
+    "lodash.template": ">=4.5.0",
     "next": "latest",
     "papercss": "^1.6.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "styled-components": "^5.1.0",
-    "lodash.template": ">=4.5.0",
-    "clean-css": ">=4.1.11"
+    "styled-components": "^5.1.0"
   },
   "license": "ISC",
   "devDependencies": {

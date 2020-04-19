@@ -22,7 +22,8 @@ export default () => (
               style={{ borderRadius: '50%' }}
               src='https://media-exp1.licdn.com/dms/image/C5603AQEaSmf2PjwGMg/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=MIKqfeXvlv_g6Rq6sPrfwqNwNRvjdBbwKFTZKWUuSfA'
             />
-            <span style={{ fontSize: '28px' }}>Joseph Trinh</span>
+        
+            <span style={{ fontSize: '24px' }}>Joseph Trinh</span>
           </div>
           <div id={styles.profileDescriptions}>
             <span>
