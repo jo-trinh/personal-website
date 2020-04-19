@@ -4391,6 +4391,20 @@ exports.push([module.i, "@charset \"UTF-8\";\n.text-primary {\n  color: #41403e\
 
 /***/ }),
 
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-tabs/style/react-tabs.css":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/react-tabs/style/react-tabs.css ***!
+  \***************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".react-tabs {\n  -webkit-tap-highlight-color: transparent;\n}\n\n.react-tabs__tab-list {\n  border-bottom: 1px solid #aaa;\n  margin: 0 0 10px;\n  padding: 0;\n}\n\n.react-tabs__tab {\n  display: inline-block;\n  border: 1px solid transparent;\n  border-bottom: none;\n  bottom: -1px;\n  position: relative;\n  list-style: none;\n  padding: 6px 12px;\n  cursor: pointer;\n}\n\n.react-tabs__tab--selected {\n  background: #fff;\n  border-color: #aaa;\n  color: black;\n  border-radius: 5px 5px 0 0;\n}\n\n.react-tabs__tab--disabled {\n  color: GrayText;\n  cursor: default;\n}\n\n.react-tabs__tab:focus {\n  box-shadow: 0 0 5px hsl(208, 99%, 50%);\n  border-color: hsl(208, 99%, 50%);\n  outline: none;\n}\n\n.react-tabs__tab:focus:after {\n  content: \"\";\n  position: absolute;\n  height: 5px;\n  left: -4px;\n  right: -4px;\n  bottom: -5px;\n  background: #fff;\n}\n\n.react-tabs__tab-panel {\n  display: none;\n}\n\n.react-tabs__tab-panel--selected {\n  display: block;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/node_modules/react-tabs/style/react-tabs.css"],"names":[],"mappings":"AAAA;EACE,wCAAwC;AAC1C;;AAEA;EACE,6BAA6B;EAC7B,gBAAgB;EAChB,UAAU;AACZ;;AAEA;EACE,qBAAqB;EACrB,6BAA6B;EAC7B,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;EAClB,gBAAgB;EAChB,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,YAAY;EACZ,0BAA0B;AAC5B;;AAEA;EACE,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,sCAAsC;EACtC,gCAAgC;EAChC,aAAa;AACf;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,WAAW;EACX,UAAU;EACV,WAAW;EACX,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,cAAc;AAChB","file":"react-tabs.css","sourcesContent":[".react-tabs {\n  -webkit-tap-highlight-color: transparent;\n}\n\n.react-tabs__tab-list {\n  border-bottom: 1px solid #aaa;\n  margin: 0 0 10px;\n  padding: 0;\n}\n\n.react-tabs__tab {\n  display: inline-block;\n  border: 1px solid transparent;\n  border-bottom: none;\n  bottom: -1px;\n  position: relative;\n  list-style: none;\n  padding: 6px 12px;\n  cursor: pointer;\n}\n\n.react-tabs__tab--selected {\n  background: #fff;\n  border-color: #aaa;\n  color: black;\n  border-radius: 5px 5px 0 0;\n}\n\n.react-tabs__tab--disabled {\n  color: GrayText;\n  cursor: default;\n}\n\n.react-tabs__tab:focus {\n  box-shadow: 0 0 5px hsl(208, 99%, 50%);\n  border-color: hsl(208, 99%, 50%);\n  outline: none;\n}\n\n.react-tabs__tab:focus:after {\n  content: \"\";\n  position: absolute;\n  height: 5px;\n  left: -4px;\n  right: -4px;\n  bottom: -5px;\n  background: #fff;\n}\n\n.react-tabs__tab-panel {\n  display: none;\n}\n\n.react-tabs__tab-panel--selected {\n  display: block;\n}\n"]}]);
+
+
+/***/ }),
+
 /***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/global.css":
 /*!***********************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/global.css ***!
@@ -4400,7 +4414,21 @@ exports.push([module.i, "@charset \"UTF-8\";\n.text-primary {\n  color: #41403e\
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "html {\n  /* height: 90vh; */\n}\nbody {\n  margin: 0px;\n  background-color: #f9fafb;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/global.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;AACA;EACE,WAAW;EACX,yBAAyB;AAC3B","file":"global.css","sourcesContent":["html {\n  /* height: 90vh; */\n}\nbody {\n  margin: 0px;\n  background-color: #f9fafb;\n}\n"]}]);
+exports.push([module.i, "html {\n  /* height: 90vh; */\n}\nbody {\n  margin: 0px;\n  background-color: #f9fafb;\n}", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/global.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;AACA;EACE,WAAW;EACX,yBAAyB;AAC3B","file":"global.css","sourcesContent":["html {\n  /* height: 90vh; */\n}\nbody {\n  margin: 0px;\n  background-color: #f9fafb;\n}"]}]);
+
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/override.css":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/override.css ***!
+  \*************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, "/* PaperCSS */\nul li::before {\n  content: '' !important;\n}\n\n/* ReactTabs */\n.react-tabs__tab--disabled {\n  cursor: not-allowed !important;\n}\n\n.react-tabs {\n  height: 100%;\n}\n\n.react-tabs__tab-panel {\n  height: inherit;\n  border: 2px solid black;\n}\n\n.react-tabs__tab-list {\n  margin: 0 0 0px;\n  border-bottom: none;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/override.css"],"names":[],"mappings":"AAAA,aAAa;AACb;EACE,sBAAsB;AACxB;;AAEA,cAAc;AACd;EACE,8BAA8B;AAChC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,uBAAuB;AACzB;;AAEA;EACE,eAAe;EACf,mBAAmB;AACrB","file":"override.css","sourcesContent":["/* PaperCSS */\nul li::before {\n  content: '' !important;\n}\n\n/* ReactTabs */\n.react-tabs__tab--disabled {\n  cursor: not-allowed !important;\n}\n\n.react-tabs {\n  height: 100%;\n}\n\n.react-tabs__tab-panel {\n  height: inherit;\n  border: 2px solid black;\n}\n\n.react-tabs__tab-list {\n  margin: 0 0 0px;\n  border-bottom: none;\n}\n"]}]);
 
 
 /***/ }),
@@ -5029,6 +5057,67 @@ var objectKeys = Object.keys || function (obj) {
 exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
 exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
 
+
+/***/ }),
+
+/***/ "./node_modules/react-tabs/style/react-tabs.css":
+/*!******************************************************!*\
+  !*** ./node_modules/react-tabs/style/react-tabs.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../next/dist/compiled/postcss-loader??__nextjs_postcss!./react-tabs.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-tabs/style/react-tabs.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../next/dist/compiled/postcss-loader??__nextjs_postcss!./react-tabs.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-tabs/style/react-tabs.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../next/dist/compiled/postcss-loader??__nextjs_postcss!./react-tabs.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/react-tabs/style/react-tabs.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
 
 /***/ }),
 
@@ -6123,12 +6212,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_templates_Layout_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/templates/Layout/Layout */ "./components/templates/Layout/Layout.js");
 /* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./global.css */ "./pages/global.css");
 /* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_global_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var papercss_dist_paper_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! papercss/dist/paper.css */ "./node_modules/papercss/dist/paper.css");
-/* harmony import */ var papercss_dist_paper_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(papercss_dist_paper_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_atom_Meta_Meta__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/atom/Meta/Meta */ "./components/atom/Meta/Meta.js");
-/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
-/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core/styles.css */ "./node_modules/@fortawesome/fontawesome-svg-core/styles.css");
-/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _override_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./override.css */ "./pages/override.css");
+/* harmony import */ var _override_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_override_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var papercss_dist_paper_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! papercss/dist/paper.css */ "./node_modules/papercss/dist/paper.css");
+/* harmony import */ var papercss_dist_paper_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(papercss_dist_paper_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-tabs/style/react-tabs.css */ "./node_modules/react-tabs/style/react-tabs.css");
+/* harmony import */ var react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_tabs_style_react_tabs_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _components_atom_Meta_Meta__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/atom/Meta/Meta */ "./components/atom/Meta/Meta.js");
+/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
+/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core/styles.css */ "./node_modules/@fortawesome/fontawesome-svg-core/styles.css");
+/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_9__);
 
 var _jsxFileName = "/Users/Jo/workspaces/projects/personal-website/pages/_app.js";
 
@@ -6138,32 +6231,34 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
+
+
  // Import the CSS
 
-_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_6__["config"].autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
+_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_8__["config"].autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
 
 function App(_ref) {
   var Component = _ref.Component,
       pageProps = _ref.pageProps;
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_atom_Meta_Meta__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_atom_Meta_Meta__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 15,
       columnNumber: 7
     }
   }), __jsx(_components_templates_Layout_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 16,
       columnNumber: 7
     }
   }, __jsx(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 17,
       columnNumber: 9
     }
   }))));
@@ -6215,6 +6310,67 @@ if (true) {
       /*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./global.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/global.css",
       function () {
         var newContent = __webpack_require__(/*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./global.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/global.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./pages/override.css":
+/*!****************************!*\
+  !*** ./pages/override.css ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./override.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/override.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./override.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/override.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./override.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/override.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
