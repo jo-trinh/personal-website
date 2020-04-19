@@ -34,10 +34,10 @@
   border-bottom-left-radius: 225px 15px;
   border-bottom-right-radius: 15px 255px;
   border-top-left-radius: 55px 15px;
-  margin-bottom: 15px;
 }
 
 #profileDescriptions {
+  padding-top: 15px;
   padding-left: 20px;
   justify-content: space-around;
   height: inherit;
