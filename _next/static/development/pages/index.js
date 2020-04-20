@@ -1,5 +1,473 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./components/templates/Portfolio/Portfolio.js":
+/*!*****************************************************!*\
+  !*** ./components/templates/Portfolio/Portfolio.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_tabs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-tabs */ "./node_modules/react-tabs/esm/index.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
+/* harmony import */ var _portfolio_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./portfolio.module.css */ "./components/templates/Portfolio/portfolio.module.css");
+/* harmony import */ var _portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4__);
+var _this = undefined,
+    _jsxFileName = "/Users/Jo/workspaces/projects/personal-website/components/templates/Portfolio/Portfolio.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+var Portfolio = function Portfolio() {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_1__["Tabs"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_1__["TabList"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 9
+    }
+  }, __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_1__["Tab"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 11
+    }
+  }, "Projects"), __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_1__["Tab"], {
+    disabled: true,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 11
+    }
+  }, "Interests")), __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_1__["TabPanel"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    id: _portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.rightPaneBody,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectBox),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    style: {
+      display: 'flex'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 15
+    }
+  }, "Tax Exemption", __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 17
+    }
+  })), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightBoxes),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 15
+    }
+  }, __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 19
+    }
+  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faUser"],
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 21
+    }
+  }), '', " Tech Lead")), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 19
+    }
+  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faCodeBranch"],
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 21
+    }
+  }), " ", '', " ReactJS, NodeJS")), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 19
+    }
+  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faClock"],
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 21
+    }
+  }), '', " Ongoing")))), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectBox),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    style: {
+      display: 'flex'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, "Resource Allocation Tool", __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 17
+    }
+  })), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightBoxes),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 15
+    }
+  }, __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 19
+    }
+  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faUser"],
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 21
+    }
+  }), '', " Tech Lead, Product Manager")), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 19
+    }
+  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faCodeBranch"],
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 21
+    }
+  }), " ", '', " ReactJS, Spring Boot")), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 19
+    }
+  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faClock"],
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 21
+    }
+  }), '', " 10 Months")))), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectBox),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    style: {
+      display: 'flex'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 15
+    }
+  }, "Tax Mapping", __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91,
+      columnNumber: 17
+    }
+  })), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightBoxes),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93,
+      columnNumber: 15
+    }
+  }, __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 19
+    }
+  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faUser"],
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 21
+    }
+  }), '', " Software Engineer")), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101,
+      columnNumber: 19
+    }
+  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faCodeBranch"],
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102,
+      columnNumber: 21
+    }
+  }), " ", '', " ReactJS, Spring Boot")), __jsx("div", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107,
+      columnNumber: 19
+    }
+  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faClock"],
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108,
+      columnNumber: 21
+    }
+  }), '', " 8 Months")))))), __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_1__["TabPanel"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116,
+      columnNumber: 9
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117,
+      columnNumber: 11
+    }
+  }, "Interests"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Portfolio);
+
+/***/ }),
+
+/***/ "./components/templates/Portfolio/portfolio.module.css":
+/*!*************************************************************!*\
+  !*** ./components/templates/Portfolio/portfolio.module.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./portfolio.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/templates/Portfolio/portfolio.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./portfolio.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/templates/Portfolio/portfolio.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./portfolio.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/templates/Portfolio/portfolio.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
 /***/ "./components/templates/Profile/Profile.js":
 /*!*************************************************!*\
   !*** ./components/templates/Profile/Profile.js ***!
@@ -32,7 +500,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 7
     }
   }, __jsx("img", {
@@ -45,7 +513,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 9
     }
   }), __jsx("span", {
@@ -55,7 +523,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 9
     }
   }, "Jo Trinh")), __jsx("div", {
@@ -63,14 +531,14 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 7
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 9
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
@@ -79,14 +547,14 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 11
     }
   }), " Senior Software Engineer"), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 33,
       columnNumber: 9
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
@@ -95,14 +563,14 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 11
     }
   }), " ReactJS, Spring, Rails"), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 9
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
@@ -111,7 +579,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 39,
       columnNumber: 11
     }
   }), " Full-Time at", ' ', __jsx("u", {
@@ -125,14 +593,14 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 40,
       columnNumber: 11
     }
   }, "The Home Depot")), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 50,
       columnNumber: 9
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
@@ -141,14 +609,14 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 51,
       columnNumber: 11
     }
   }), " Atlanta, Georgia"), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 53,
       columnNumber: 9
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
@@ -157,7 +625,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 54,
       columnNumber: 11
     }
   }), ' ', __jsx("u", {
@@ -170,14 +638,14 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 55,
       columnNumber: 11
     }
   }, "jotrinh@outlook.com")), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 62,
       columnNumber: 9
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
@@ -186,7 +654,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 63,
       columnNumber: 11
     }
   }), " (470) 869-3972")), __jsx("div", {
@@ -195,7 +663,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 66,
       columnNumber: 7
     }
   }, __jsx("button", {
@@ -203,7 +671,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 67,
       columnNumber: 9
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
@@ -215,7 +683,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 68,
       columnNumber: 11
     }
   }), ' '), __jsx("button", {
@@ -223,7 +691,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 76,
       columnNumber: 9
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
@@ -235,7 +703,7 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 77,
       columnNumber: 11
     }
   }), ' ')));
@@ -13359,6 +13827,26 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 /***/ }),
 
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/templates/Portfolio/portfolio.module.css":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./components/templates/Portfolio/portfolio.module.css ***!
+  \**********************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".portfolio_projectBox__XJUOc {\n  display: flex;\n  flex-direction: column;\n}\n\n.portfolio_projectHighLightBoxes__3BPW4 {\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: nowrap;\n  margin: 10px;\n}\n\n#portfolio_rightPaneBody__3r3DV {\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  margin: 15px;\n  margin-left: 30px;\n}\n\n.portfolio_projectHighlightBox__2JKje {\n  padding: 10px;\n}\n\n/* .projectHighLightText {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n} */\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/components/templates/Portfolio/portfolio.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,6BAA6B;EAC7B,iBAAiB;EACjB,YAAY;AACd;;AAEA;EACE,eAAe;EACf,aAAa;EACb,sBAAsB;EACtB,6BAA6B;EAC7B,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,aAAa;AACf;;AAEA;;;;;GAKG","file":"portfolio.module.css","sourcesContent":[".projectBox {\n  display: flex;\n  flex-direction: column;\n}\n\n.projectHighLightBoxes {\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: nowrap;\n  margin: 10px;\n}\n\n#rightPaneBody {\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  margin: 15px;\n  margin-left: 30px;\n}\n\n.projectHighlightBox {\n  padding: 10px;\n}\n\n/* .projectHighLightText {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n} */\n"]}]);
+// Exports
+exports.locals = {
+	"projectBox": "portfolio_projectBox__XJUOc",
+	"projectHighLightBoxes": "portfolio_projectHighLightBoxes__3BPW4",
+	"rightPaneBody": "portfolio_rightPaneBody__3r3DV",
+	"projectHighlightBox": "portfolio_projectHighlightBox__2JKje"
+};
+
+/***/ }),
+
 /***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/templates/Profile/profile.module.css":
 /*!******************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./components/templates/Profile/profile.module.css ***!
@@ -13388,13 +13876,14 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".index_flexContainer__1nh_6 {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.index_flexItem__1tLiC {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.index_flexItem__1tLiC:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.index_flexItem__1tLiC:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.index_flexBody__1Zfp6 {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#index_portfolioPane__2ygZT {\n  border-top: none;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/index.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,aAAa;EACb,eAAe;AACjB;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,WAAW;EACX,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,YAAY;AACd;AACA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,gBAAgB;AAClB","file":"index.module.css","sourcesContent":[".flexContainer {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.flexItem {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.flexItem:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.flexItem:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.flexBody {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#portfolioPane {\n  border-top: none;\n}\n"]}]);
+exports.push([module.i, ".index_flexContainer__1nh_6 {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.index_flexItem__1tLiC {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.index_flexItem__1tLiC:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.index_flexItem__1tLiC:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.index_flexBody__1Zfp6 {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#index_portfolioPane__2ygZT {\n  border-top: none;\n}\n\n.index_paper__l147S {\n  background: #fff;\n  padding: 30px;\n  position: relative;\n}\n\n.index_paper__l147S,\n.index_paper__l147S::before,\n.index_paper__l147S::after {\n  /* Styles to distinguish sheets from one another */\n  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);\n  border: 1px solid #bbb;\n}\n\n.index_paper__l147S::before,\n.index_paper__l147S::after {\n  content: '';\n  position: absolute;\n  height: 95%;\n  width: 99%;\n  background-color: #eee;\n}\n\n.index_paper__l147S::before {\n  right: 15px;\n  top: 0;\n  transform: rotate(-1deg);\n  z-index: -1;\n}\n\n.index_paper__l147S::after {\n  top: 5px;\n  right: -5px;\n  transform: rotate(1deg);\n  z-index: -2;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/index.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,aAAa;EACb,eAAe;AACjB;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,WAAW;EACX,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,YAAY;AACd;AACA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,kBAAkB;AACpB;;AAEA;;;EAGE,kDAAkD;EAClD,2CAA2C;EAC3C,sBAAsB;AACxB;;AAEA;;EAEE,WAAW;EACX,kBAAkB;EAClB,WAAW;EACX,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,WAAW;EACX,MAAM;EACN,wBAAwB;EACxB,WAAW;AACb;;AAEA;EACE,QAAQ;EACR,WAAW;EACX,uBAAuB;EACvB,WAAW;AACb","file":"index.module.css","sourcesContent":[".flexContainer {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.flexItem {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.flexItem:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.flexItem:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.flexBody {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#portfolioPane {\n  border-top: none;\n}\n\n.paper {\n  background: #fff;\n  padding: 30px;\n  position: relative;\n}\n\n.paper,\n.paper::before,\n.paper::after {\n  /* Styles to distinguish sheets from one another */\n  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);\n  border: 1px solid #bbb;\n}\n\n.paper::before,\n.paper::after {\n  content: '';\n  position: absolute;\n  height: 95%;\n  width: 99%;\n  background-color: #eee;\n}\n\n.paper::before {\n  right: 15px;\n  top: 0;\n  transform: rotate(-1deg);\n  z-index: -1;\n}\n\n.paper::after {\n  top: 5px;\n  right: -5px;\n  transform: rotate(1deg);\n  z-index: -2;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"flexContainer": "index_flexContainer__1nh_6",
 	"flexItem": "index_flexItem__1tLiC",
 	"flexBody": "index_flexBody__1Zfp6",
-	"portfolioPane": "index_portfolioPane__2ygZT"
+	"portfolioPane": "index_portfolioPane__2ygZT",
+	"paper": "index_paper__l147S"
 };
 
 /***/ }),
@@ -15795,7 +16284,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.module.css */ "./pages/index.module.css");
 /* harmony import */ var _index_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_templates_Profile_Profile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/templates/Profile/Profile */ "./components/templates/Profile/Profile.js");
-/* harmony import */ var react_tabs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-tabs */ "./node_modules/react-tabs/esm/index.js");
+/* harmony import */ var _components_templates_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/templates/Portfolio/Portfolio */ "./components/templates/Portfolio/Portfolio.js");
 var _this = undefined,
     _jsxFileName = "/Users/Jo/workspaces/projects/personal-website/pages/index.js";
 
@@ -15842,72 +16331,17 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 13,
       columnNumber: 7
     }
-  }, __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_3__["Tabs"], {
+  }, __jsx(_components_templates_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 14,
       columnNumber: 9
     }
-  }, __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_3__["TabList"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 11
-    }
-  }, __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_3__["Tab"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 13
-    }
-  }, "Projects"), __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_3__["Tab"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
-    }
-  }, "Interest")), __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_3__["TabPanel"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 11
-    }
-  }, __jsx("span", {
-    style: {
-      textAlign: 'center'
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 13
-    }
-  }, "Projects")), __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_3__["TabPanel"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 11
-    }
-  }, __jsx("span", {
-    style: {
-      textAlign: 'center'
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 13
-    }
-  }, "Interests"))))));
+  }))));
 });
 
 /***/ }),

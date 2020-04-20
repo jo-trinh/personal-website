@@ -4414,7 +4414,7 @@ exports.push([module.i, ".react-tabs {\n  -webkit-tap-highlight-color: transpare
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "html {\n  /* height: 90vh; */\n}\nbody {\n  margin: 0px;\n  background-color: #f9fafb;\n}", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/global.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;AACA;EACE,WAAW;EACX,yBAAyB;AAC3B","file":"global.css","sourcesContent":["html {\n  /* height: 90vh; */\n}\nbody {\n  margin: 0px;\n  background-color: #f9fafb;\n}"]}]);
+exports.push([module.i, "html {\n  /* height: 90vh; */\n}\nbody {\n  margin: 0px;\n  background-color: #f9fafb;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/global.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;AACA;EACE,WAAW;EACX,yBAAyB;AAC3B","file":"global.css","sourcesContent":["html {\n  /* height: 90vh; */\n}\nbody {\n  margin: 0px;\n  background-color: #f9fafb;\n}\n"]}]);
 
 
 /***/ }),
@@ -4428,7 +4428,7 @@ exports.push([module.i, "html {\n  /* height: 90vh; */\n}\nbody {\n  margin: 0px
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "/* PaperCSS */\nul li::before {\n  content: '' !important;\n}\n\n/* ReactTabs */\n.react-tabs__tab--disabled {\n  cursor: not-allowed !important;\n}\n\n.react-tabs {\n  height: 100%;\n}\n\n.react-tabs__tab-panel {\n  height: inherit;\n  border: 2px solid black;\n}\n\n.react-tabs__tab-list {\n  margin: 0 0 0px;\n  border-bottom: none;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/override.css"],"names":[],"mappings":"AAAA,aAAa;AACb;EACE,sBAAsB;AACxB;;AAEA,cAAc;AACd;EACE,8BAA8B;AAChC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,uBAAuB;AACzB;;AAEA;EACE,eAAe;EACf,mBAAmB;AACrB","file":"override.css","sourcesContent":["/* PaperCSS */\nul li::before {\n  content: '' !important;\n}\n\n/* ReactTabs */\n.react-tabs__tab--disabled {\n  cursor: not-allowed !important;\n}\n\n.react-tabs {\n  height: 100%;\n}\n\n.react-tabs__tab-panel {\n  height: inherit;\n  border: 2px solid black;\n}\n\n.react-tabs__tab-list {\n  margin: 0 0 0px;\n  border-bottom: none;\n}\n"]}]);
+exports.push([module.i, "/* PaperCSS */\nul li::before {\n  content: '' !important;\n}\n\n/* ReactTabs */\n.react-tabs__tab--disabled {\n  cursor: not-allowed !important;\n}\n\n.react-tabs__tab--selected {\n  border: 2px solid #aaa !important;\n  border-bottom: none !important;\n}\n\n.react-tabs__tab {\n  padding: 6px 25px !important;\n  border-radius: 10px 10px 0 0 !important;\n}\n\n.react-tabs {\n  height: 100%;\n}\n\n.react-tabs__tab-panel {\n  height: inherit;\n  background-color: #fff;\n  border: 2px solid #41403e;\n  border-bottom-left-radius: 225px 15px;\n  border-bottom-right-radius: 15px 255px;\n  /* border-top-left-radius: 15px 225px;\n  border-top-right-radius: 255px 15px; */\n}\n\n.react-tabs__tab-list {\n  margin: 0 0 0px !important;\n  border-bottom: none;\n}\n\n.react-tabs__tab:nth-of-type(1) {\n  background-color: #deefff;\n}\n\n.react-tabs__tab:nth-of-type(2) {\n  background-color: #f5f0c6;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/override.css"],"names":[],"mappings":"AAAA,aAAa;AACb;EACE,sBAAsB;AACxB;;AAEA,cAAc;AACd;EACE,8BAA8B;AAChC;;AAEA;EACE,iCAAiC;EACjC,8BAA8B;AAChC;;AAEA;EACE,4BAA4B;EAC5B,uCAAuC;AACzC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,sBAAsB;EACtB,yBAAyB;EACzB,qCAAqC;EACrC,sCAAsC;EACtC;wCACsC;AACxC;;AAEA;EACE,0BAA0B;EAC1B,mBAAmB;AACrB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;AAC3B","file":"override.css","sourcesContent":["/* PaperCSS */\nul li::before {\n  content: '' !important;\n}\n\n/* ReactTabs */\n.react-tabs__tab--disabled {\n  cursor: not-allowed !important;\n}\n\n.react-tabs__tab--selected {\n  border: 2px solid #aaa !important;\n  border-bottom: none !important;\n}\n\n.react-tabs__tab {\n  padding: 6px 25px !important;\n  border-radius: 10px 10px 0 0 !important;\n}\n\n.react-tabs {\n  height: 100%;\n}\n\n.react-tabs__tab-panel {\n  height: inherit;\n  background-color: #fff;\n  border: 2px solid #41403e;\n  border-bottom-left-radius: 225px 15px;\n  border-bottom-right-radius: 15px 255px;\n  /* border-top-left-radius: 15px 225px;\n  border-top-right-radius: 255px 15px; */\n}\n\n.react-tabs__tab-list {\n  margin: 0 0 0px !important;\n  border-bottom: none;\n}\n\n.react-tabs__tab:nth-of-type(1) {\n  background-color: #deefff;\n}\n\n.react-tabs__tab:nth-of-type(2) {\n  background-color: #f5f0c6;\n}\n"]}]);
 
 
 /***/ }),
@@ -6240,14 +6240,7 @@ _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_8__["config"].autoAdd
 function App(_ref) {
   var Component = _ref.Component,
       pageProps = _ref.pageProps;
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_atom_Meta_Meta__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 7
-    }
-  }), __jsx(_components_templates_Layout_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_templates_Layout_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
