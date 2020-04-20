@@ -1,0 +1,31 @@
+.projectBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectHighLightBoxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin: 10px;
+}
+
+#rightPaneBody {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 15px;
+  margin-left: 30px;
+}
+
+.projectHighlightBox {
+  padding: 10px;
+}
+
+/* .projectHighLightText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} */

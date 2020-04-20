@@ -7,6 +7,7 @@ import {
   faMapMarkerAlt,
   faBriefcase,
   faLaptopCode,
+  faFilePdf,
 } from '@fortawesome/free-solid-svg-icons'
 import styles from './profile.module.css'
 

@@ -12,7 +12,7 @@ config.autoAddCss = false // Tell Font Awesome to skip adding the CSS automatica
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Meta />
+      {/* <Meta /> */}
       <Layout>
         <Component {...pageProps} />
       </Layout>
