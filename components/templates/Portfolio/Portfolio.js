@@ -30,18 +30,18 @@ const Portfolio = () => {
                 <p></p>
               </div>
               <div className={`${styles.projectHighLightBoxes}`}>
-                <div className={`${styles.projectHighlightBox} border`}>
+                <div className={`${styles.projectHighlightBox}`}>
                   <span className={`${styles.projectHighLightText}`}>
                     <FontAwesomeIcon icon={faUser} />
                     {''} Tech Lead
                   </span>
                 </div>
-                <div className={`${styles.projectHighlightBox} border`}>
+                <div className={`${styles.projectHighlightBox}`}>
                   <span className={`${styles.projectHighLightText}`}>
                     <FontAwesomeIcon icon={faCodeBranch} /> {''} ReactJS, NodeJS
                   </span>
                 </div>
-                <div className={`${styles.projectHighlightBox} border`}>
+                <div className={`${styles.projectHighlightBox}`}>
                   <span className={`${styles.projectHighLightText}`}>
                     <FontAwesomeIcon icon={faClock} />
                     {''} Ongoing
@@ -60,19 +60,19 @@ const Portfolio = () => {
                 <p></p>
               </div>
               <div className={`${styles.projectHighLightBoxes}`}>
-                <div className={`${styles.projectHighlightBox} border`}>
+                <div className={`${styles.projectHighlightBox}`}>
                   <span className={`${styles.projectHighLightText}`}>
                     <FontAwesomeIcon icon={faUser} />
                     {''} Tech Lead, Product Manager
                   </span>
                 </div>
-                <div className={`${styles.projectHighlightBox} border`}>
+                <div className={`${styles.projectHighlightBox}`}>
                   <span className={`${styles.projectHighLightText}`}>
                     <FontAwesomeIcon icon={faCodeBranch} /> {''} ReactJS, Spring
                     Boot
                   </span>
                 </div>
-                <div className={`${styles.projectHighlightBox} border`}>
+                <div className={`${styles.projectHighlightBox}`}>
                   <span className={`${styles.projectHighLightText}`}>
                     <FontAwesomeIcon icon={faClock} />
                     {''} 10 Months
@@ -91,19 +91,19 @@ const Portfolio = () => {
                 <p></p>
               </div>
               <div className={`${styles.projectHighLightBoxes}`}>
-                <div className={`${styles.projectHighlightBox} border`}>
+                <div className={`${styles.projectHighlightBox}`}>
                   <span className={`${styles.projectHighLightText}`}>
                     <FontAwesomeIcon icon={faUser} />
                     {''} Software Engineer
                   </span>
                 </div>
-                <div className={`${styles.projectHighlightBox} border`}>
+                <div className={`${styles.projectHighlightBox}`}>
                   <span className={`${styles.projectHighLightText}`}>
                     <FontAwesomeIcon icon={faCodeBranch} /> {''} ReactJS, Spring
                     Boot
                   </span>
                 </div>
-                <div className={`${styles.projectHighlightBox} border`}>
+                <div className={`${styles.projectHighlightBox}`}>
                   <span className={`${styles.projectHighLightText}`}>
                     <FontAwesomeIcon icon={faClock} />
                     {''} 8 Months

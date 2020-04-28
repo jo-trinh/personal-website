@@ -1,7 +1,6 @@
 import Layout from '../components/templates/Layout/Layout'
 import './global.css'
 import './override.css'
-import 'papercss/dist/paper.css'
 import 'react-tabs/style/react-tabs.css'
 import Meta from '../components/atom/Meta/Meta'
 

@@ -63,8 +63,8 @@ const Profile = () => {
           <FontAwesomeIcon icon={faMobileAlt} size='1x' /> (470) 869-3972
         </span>
       </div>
-      <div id={styles.profileFooter} className='border border-3 border-primary'>
-        <button className={`${styles.icon} border-1`}>
+      <div id={styles.profileFooter}>
+        <button className={`${styles.icon}`}>
           <FontAwesomeIcon
             icon={faLinkedin}
             size='2x'
@@ -73,7 +73,7 @@ const Profile = () => {
             }
           />{' '}
         </button>
-        <button className={`${styles.icon} border-2`}>
+        <button className={`${styles.icon}`}>
           <FontAwesomeIcon
             icon={faGithub}
             size='2x'

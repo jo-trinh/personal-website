@@ -8,6 +8,7 @@
   justify-content: space-around;
   flex-wrap: nowrap;
   margin: 10px;
+  border: 1px solid black;
 }
 
 #rightPaneBody {
@@ -21,11 +22,5 @@
 
 .projectHighlightBox {
   padding: 10px;
+  border: 1px solid black;
 }
-
-/* .projectHighLightText {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-} */
