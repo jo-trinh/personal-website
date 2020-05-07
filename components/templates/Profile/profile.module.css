@@ -1,7 +1,6 @@
 #profileHeader {
   display: grid;
   justify-content: center;
-  border: 1px solid black;
 }
 
 #profileDescriptions {
@@ -23,4 +22,10 @@
 
 .icon {
   padding: 0.3rem;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background: rgba(255, 255, 255, 1);
+  color: #c1c0bd;
 }

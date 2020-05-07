@@ -5,7 +5,7 @@ import Portfolio from '../components/templates/Portfolio/Portfolio'
 export default () => (
   <>
     <div className={styles.flexContainer}>
-      <div className={`${styles.flexItem} border shadow border-primary`}>
+      <div className={`${styles.flexItem} ${styles.border}`}>
         <div className={styles.flexBody}>
           <Profile />
         </div>

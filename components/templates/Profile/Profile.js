@@ -64,7 +64,7 @@ const Profile = () => {
         </span>
       </div>
       <div id={styles.profileFooter}>
-        <button className={`${styles.icon}`}>
+        <span className={`${styles.icon}`}>
           <FontAwesomeIcon
             icon={faLinkedin}
             size='2x'
@@ -72,14 +72,14 @@ const Profile = () => {
               window.open('https://www.linkedin.com/in/joseph-trinh-0517b312b/')
             }
           />{' '}
-        </button>
-        <button className={`${styles.icon}`}>
+        </span>
+        <span className={`${styles.icon}`}>
           <FontAwesomeIcon
             icon={faGithub}
             size='2x'
             onClick={() => window.open('https://github.com/jo-trinh/')}
           />{' '}
-        </button>
+        </span>
       </div>
     </>
   )

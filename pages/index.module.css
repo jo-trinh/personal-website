@@ -4,9 +4,13 @@
   flex-wrap: wrap;
 }
 
+.border {
+  border: solid 1px #c0c0c0;
+  box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
 .flexItem {
   background-color: #fff;
-  border: solid 1px black;
   margin: 15px;
   width: 100%;
   height: 90%;
@@ -29,41 +33,4 @@
 
 #portfolioPane {
   border-top: none;
-}
-
-.paper {
-  background: #fff;
-  padding: 30px;
-  position: relative;
-}
-
-.paper,
-.paper::before,
-.paper::after {
-  /* Styles to distinguish sheets from one another */
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-  border: 1px solid #bbb;
-}
-
-.paper::before,
-.paper::after {
-  content: '';
-  position: absolute;
-  height: 95%;
-  width: 99%;
-  background-color: #eee;
-}
-
-.paper::before {
-  right: 15px;
-  top: 0;
-  transform: rotate(-1deg);
-  z-index: -1;
-}
-
-.paper::after {
-  top: 5px;
-  right: -5px;
-  transform: rotate(1deg);
-  z-index: -2;
 }
