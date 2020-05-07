@@ -64,7 +64,7 @@ var Portfolio = function Portfolio() {
       columnNumber: 9
     }
   }, __jsx("div", {
-    id: _portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.rightPaneBody,
+    className: _portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.paper,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -72,332 +72,25 @@ var Portfolio = function Portfolio() {
       columnNumber: 11
     }
   }, __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectBox),
+    className: _portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.paperContent,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 13
     }
-  }, __jsx("div", {
-    style: {
-      display: 'flex'
-    },
+  }))), __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_1__["TabPanel"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 15
-    }
-  }, "Tax Exemption", __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightBoxes),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 15
-    }
-  }, __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 19
-    }
-  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faUser"],
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 21
-    }
-  }), '', " Tech Lead")), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 19
-    }
-  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faCodeBranch"],
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 21
-    }
-  }), " ", '', " ReactJS, NodeJS")), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 19
-    }
-  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faClock"],
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 21
-    }
-  }), '', " Ongoing")))), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectBox),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    style: {
-      display: 'flex'
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 15
-    }
-  }, "Resource Allocation Tool", __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightBoxes),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 15
-    }
-  }, __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 19
-    }
-  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faUser"],
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 21
-    }
-  }), '', " Tech Lead, Product Manager")), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 19
-    }
-  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faCodeBranch"],
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 21
-    }
-  }), " ", '', " ReactJS, Spring Boot")), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 19
-    }
-  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faClock"],
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 21
-    }
-  }), '', " 10 Months")))), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectBox),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    style: {
-      display: 'flex'
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85,
-      columnNumber: 15
-    }
-  }, "Tax Mapping", __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightBoxes),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 15
-    }
-  }, __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95,
-      columnNumber: 19
-    }
-  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faUser"],
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96,
-      columnNumber: 21
-    }
-  }), '', " Software Engineer")), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101,
-      columnNumber: 19
-    }
-  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faCodeBranch"],
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 102,
-      columnNumber: 21
-    }
-  }), " ", '', " ReactJS, Spring Boot")), __jsx("div", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighlightBox, " border"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 106,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    className: "".concat(_portfolio_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.projectHighLightText),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 107,
-      columnNumber: 19
-    }
-  }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faClock"],
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 108,
-      columnNumber: 21
-    }
-  }), '', " 8 Months")))))), __jsx(react_tabs__WEBPACK_IMPORTED_MODULE_1__["TabPanel"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 26,
       columnNumber: 9
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 27,
       columnNumber: 11
     }
   }, "Interests"))));
@@ -659,15 +352,14 @@ var Profile = function Profile() {
     }
   }), " (470) 869-3972")), __jsx("div", {
     id: _profile_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.profileFooter,
-    className: "border border-3 border-primary",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66,
       columnNumber: 7
     }
-  }, __jsx("button", {
-    className: "".concat(_profile_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.icon, " border-1"),
+  }, __jsx("span", {
+    className: "".concat(_profile_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.icon),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -686,8 +378,8 @@ var Profile = function Profile() {
       lineNumber: 68,
       columnNumber: 11
     }
-  }), ' '), __jsx("button", {
-    className: "".concat(_profile_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.icon, " border-2"),
+  }), ' '), __jsx("span", {
+    className: "".concat(_profile_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.icon),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -13836,13 +13528,14 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".portfolio_projectBox__XJUOc {\n  display: flex;\n  flex-direction: column;\n}\n\n.portfolio_projectHighLightBoxes__3BPW4 {\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: nowrap;\n  margin: 10px;\n}\n\n#portfolio_rightPaneBody__3r3DV {\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  margin: 15px;\n  margin-left: 30px;\n}\n\n.portfolio_projectHighlightBox__2JKje {\n  padding: 10px;\n}\n\n/* .projectHighLightText {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n} */\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/components/templates/Portfolio/portfolio.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,6BAA6B;EAC7B,iBAAiB;EACjB,YAAY;AACd;;AAEA;EACE,eAAe;EACf,aAAa;EACb,sBAAsB;EACtB,6BAA6B;EAC7B,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,aAAa;AACf;;AAEA;;;;;GAKG","file":"portfolio.module.css","sourcesContent":[".projectBox {\n  display: flex;\n  flex-direction: column;\n}\n\n.projectHighLightBoxes {\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: nowrap;\n  margin: 10px;\n}\n\n#rightPaneBody {\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  margin: 15px;\n  margin-left: 30px;\n}\n\n.projectHighlightBox {\n  padding: 10px;\n}\n\n/* .projectHighLightText {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n} */\n"]}]);
+exports.push([module.i, ".portfolio_projectBox__XJUOc {\n  display: flex;\n  flex-direction: column;\n}\n\n.portfolio_projectHighLightBoxes__3BPW4 {\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: nowrap;\n  margin: 10px;\n  border: 1px solid black;\n}\n\n#portfolio_rightPaneBody__3r3DV {\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  margin: 15px;\n  margin-left: 30px;\n}\n\n.portfolio_projectHighlightBox__2JKje {\n  padding: 10px;\n  border: 1px solid black;\n}\n\n.portfolio_paper__3KX0b {\n  position: relative;\n  height: 100%;\n  margin: 0 auto;\n  background: #fafafa;\n  border-radius: 10px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  overflow: hidden;\n}\n.portfolio_paper__3KX0b:before {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 60px;\n  background: radial-gradient(#575450 6px, transparent 7px) repeat-y;\n  background-size: 30px 30px;\n  border-right: 3px solid #d44147;\n  box-sizing: border-box;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/components/templates/Portfolio/portfolio.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,6BAA6B;EAC7B,iBAAiB;EACjB,YAAY;EACZ,uBAAuB;AACzB;;AAEA;EACE,eAAe;EACf,aAAa;EACb,sBAAsB;EACtB,6BAA6B;EAC7B,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,uBAAuB;AACzB;;AAEA;EACE,kBAAkB;EAClB,YAAY;EACZ,cAAc;EACd,mBAAmB;EACnB,mBAAmB;EACnB,wCAAwC;EACxC,gBAAgB;AAClB;AACA;EACE,WAAW;EACX,kBAAkB;EAClB,MAAM;EACN,SAAS;EACT,OAAO;EACP,WAAW;EACX,kEAAkE;EAClE,0BAA0B;EAC1B,+BAA+B;EAC/B,sBAAsB;AACxB","file":"portfolio.module.css","sourcesContent":[".projectBox {\n  display: flex;\n  flex-direction: column;\n}\n\n.projectHighLightBoxes {\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: nowrap;\n  margin: 10px;\n  border: 1px solid black;\n}\n\n#rightPaneBody {\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  margin: 15px;\n  margin-left: 30px;\n}\n\n.projectHighlightBox {\n  padding: 10px;\n  border: 1px solid black;\n}\n\n.paper {\n  position: relative;\n  height: 100%;\n  margin: 0 auto;\n  background: #fafafa;\n  border-radius: 10px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  overflow: hidden;\n}\n.paper:before {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 60px;\n  background: radial-gradient(#575450 6px, transparent 7px) repeat-y;\n  background-size: 30px 30px;\n  border-right: 3px solid #d44147;\n  box-sizing: border-box;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"projectBox": "portfolio_projectBox__XJUOc",
 	"projectHighLightBoxes": "portfolio_projectHighLightBoxes__3BPW4",
 	"rightPaneBody": "portfolio_rightPaneBody__3r3DV",
-	"projectHighlightBox": "portfolio_projectHighlightBox__2JKje"
+	"projectHighlightBox": "portfolio_projectHighlightBox__2JKje",
+	"paper": "portfolio_paper__3KX0b"
 };
 
 /***/ }),
@@ -13856,7 +13549,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "#profile_profileHeader__haq73 {\n  display: grid;\n  justify-content: center;\n  border-bottom: 2px solid #41403e;\n  border-bottom-left-radius: 225px 15px;\n  border-bottom-right-radius: 15px 255px;\n  border-top-left-radius: 55px 15px;\n}\n\n#profile_profileDescriptions__1j2VU {\n  padding-left: 20px;\n  justify-content: space-evenly;\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n}\n\n#profile_profileFooter__1zZFq {\n  display: flex;\n  justify-content: space-evenly;\n  border-left: none;\n  border-right: none;\n  border-bottom: none;\n  padding: 15px;\n}\n\n.profile_icon__2whIo {\n  padding: 0.3rem;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/components/templates/Profile/profile.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,uBAAuB;EACvB,gCAAgC;EAChC,qCAAqC;EACrC,sCAAsC;EACtC,iCAAiC;AACnC;;AAEA;EACE,kBAAkB;EAClB,6BAA6B;EAC7B,eAAe;EACf,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,6BAA6B;EAC7B,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,eAAe;AACjB","file":"profile.module.css","sourcesContent":["#profileHeader {\n  display: grid;\n  justify-content: center;\n  border-bottom: 2px solid #41403e;\n  border-bottom-left-radius: 225px 15px;\n  border-bottom-right-radius: 15px 255px;\n  border-top-left-radius: 55px 15px;\n}\n\n#profileDescriptions {\n  padding-left: 20px;\n  justify-content: space-evenly;\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n}\n\n#profileFooter {\n  display: flex;\n  justify-content: space-evenly;\n  border-left: none;\n  border-right: none;\n  border-bottom: none;\n  padding: 15px;\n}\n\n.icon {\n  padding: 0.3rem;\n}\n"]}]);
+exports.push([module.i, "#profile_profileHeader__haq73 {\n  display: grid;\n  justify-content: center;\n}\n\n#profile_profileDescriptions__1j2VU {\n  padding-left: 20px;\n  justify-content: space-evenly;\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n}\n\n#profile_profileFooter__1zZFq {\n  display: flex;\n  justify-content: space-evenly;\n  border-left: none;\n  border-right: none;\n  border-bottom: none;\n  padding: 15px;\n}\n\n.profile_icon__2whIo {\n  padding: 0.3rem;\n  cursor: pointer;\n}\n\n.profile_icon__2whIo:hover {\n  background: rgba(255, 255, 255, 1);\n  color: #c1c0bd;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/components/templates/Profile/profile.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,uBAAuB;AACzB;;AAEA;EACE,kBAAkB;EAClB,6BAA6B;EAC7B,eAAe;EACf,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,6BAA6B;EAC7B,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,kCAAkC;EAClC,cAAc;AAChB","file":"profile.module.css","sourcesContent":["#profileHeader {\n  display: grid;\n  justify-content: center;\n}\n\n#profileDescriptions {\n  padding-left: 20px;\n  justify-content: space-evenly;\n  height: inherit;\n  display: flex;\n  flex-direction: column;\n}\n\n#profileFooter {\n  display: flex;\n  justify-content: space-evenly;\n  border-left: none;\n  border-right: none;\n  border-bottom: none;\n  padding: 15px;\n}\n\n.icon {\n  padding: 0.3rem;\n  cursor: pointer;\n}\n\n.icon:hover {\n  background: rgba(255, 255, 255, 1);\n  color: #c1c0bd;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"profileHeader": "profile_profileHeader__haq73",
@@ -13876,14 +13569,14 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".index_flexContainer__1nh_6 {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.index_flexItem__1tLiC {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.index_flexItem__1tLiC:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.index_flexItem__1tLiC:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.index_flexBody__1Zfp6 {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#index_portfolioPane__2ygZT {\n  border-top: none;\n}\n\n.index_paper__l147S {\n  background: #fff;\n  padding: 30px;\n  position: relative;\n}\n\n.index_paper__l147S,\n.index_paper__l147S::before,\n.index_paper__l147S::after {\n  /* Styles to distinguish sheets from one another */\n  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);\n  border: 1px solid #bbb;\n}\n\n.index_paper__l147S::before,\n.index_paper__l147S::after {\n  content: '';\n  position: absolute;\n  height: 95%;\n  width: 99%;\n  background-color: #eee;\n}\n\n.index_paper__l147S::before {\n  right: 15px;\n  top: 0;\n  transform: rotate(-1deg);\n  z-index: -1;\n}\n\n.index_paper__l147S::after {\n  top: 5px;\n  right: -5px;\n  transform: rotate(1deg);\n  z-index: -2;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/index.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,aAAa;EACb,eAAe;AACjB;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,WAAW;EACX,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,YAAY;AACd;AACA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,kBAAkB;AACpB;;AAEA;;;EAGE,kDAAkD;EAClD,2CAA2C;EAC3C,sBAAsB;AACxB;;AAEA;;EAEE,WAAW;EACX,kBAAkB;EAClB,WAAW;EACX,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,WAAW;EACX,MAAM;EACN,wBAAwB;EACxB,WAAW;AACb;;AAEA;EACE,QAAQ;EACR,WAAW;EACX,uBAAuB;EACvB,WAAW;AACb","file":"index.module.css","sourcesContent":[".flexContainer {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.flexItem {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.flexItem:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.flexItem:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.flexBody {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#portfolioPane {\n  border-top: none;\n}\n\n.paper {\n  background: #fff;\n  padding: 30px;\n  position: relative;\n}\n\n.paper,\n.paper::before,\n.paper::after {\n  /* Styles to distinguish sheets from one another */\n  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);\n  border: 1px solid #bbb;\n}\n\n.paper::before,\n.paper::after {\n  content: '';\n  position: absolute;\n  height: 95%;\n  width: 99%;\n  background-color: #eee;\n}\n\n.paper::before {\n  right: 15px;\n  top: 0;\n  transform: rotate(-1deg);\n  z-index: -1;\n}\n\n.paper::after {\n  top: 5px;\n  right: -5px;\n  transform: rotate(1deg);\n  z-index: -2;\n}\n"]}]);
+exports.push([module.i, ".index_flexContainer__1nh_6 {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.index_border__10mZg {\n  border: solid 1px #c0c0c0;\n  box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, 0.2);\n}\n\n.index_flexItem__1tLiC {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.index_flexItem__1tLiC:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.index_flexItem__1tLiC:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.index_flexBody__1Zfp6 {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#index_portfolioPane__2ygZT {\n  border-top: none;\n}\n", "",{"version":3,"sources":["/Users/Jo/workspaces/projects/personal-website/pages/index.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,aAAa;EACb,eAAe;AACjB;;AAEA;EACE,yBAAyB;EACzB,gDAAgD;AAClD;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,WAAW;EACX,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,YAAY;AACd;AACA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,gBAAgB;AAClB","file":"index.module.css","sourcesContent":[".flexContainer {\n  display: flex;\n  height: 100vh;\n  flex-wrap: wrap;\n}\n\n.border {\n  border: solid 1px #c0c0c0;\n  box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, 0.2);\n}\n\n.flexItem {\n  background-color: #fff;\n  margin: 15px;\n  width: 100%;\n  height: 90%;\n}\n\n.flexItem:nth-of-type(1) {\n  flex-basis: 200px;\n  flex-grow: 1;\n}\n.flexItem:nth-of-type(2) {\n  flex-grow: 5;\n  flex-basis: 700px;\n}\n\n.flexBody {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#portfolioPane {\n  border-top: none;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"flexContainer": "index_flexContainer__1nh_6",
+	"border": "index_border__10mZg",
 	"flexItem": "index_flexItem__1tLiC",
 	"flexBody": "index_flexBody__1Zfp6",
-	"portfolioPane": "index_portfolioPane__2ygZT",
-	"paper": "index_paper__l147S"
+	"portfolioPane": "index_portfolioPane__2ygZT"
 };
 
 /***/ }),
@@ -16303,7 +15996,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       columnNumber: 5
     }
   }, __jsx("div", {
-    className: "".concat(_index_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.flexItem, " border shadow border-primary"),
+    className: "".concat(_index_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.flexItem, " ").concat(_index_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.border),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -16407,7 +16100,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FJo%2Fworkspaces%2Fprojects%2Fpersonal-website%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************************/
@@ -16430,5 +16123,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
